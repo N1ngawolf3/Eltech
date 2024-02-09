@@ -6,6 +6,9 @@ from config import *
 
 bot = telebot.TeleBot(token)
 
+#todo Добавить кнопку для начала решения и кнопки для выбора стандартных
+# размеров матрицы(2х2,3х3,4х4 e.c.)
+
 
 def create_matrix(message, size):
     """
